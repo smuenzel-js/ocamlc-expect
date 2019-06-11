@@ -1,3 +1,3 @@
-(lang dune 1.1)
+(lang dune 1.6)
 (name ocamlc-expect)
 (version 0)

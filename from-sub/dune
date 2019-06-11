@@ -1,0 +1,5 @@
+(rule 
+  (targets ocaml-version)
+  (action 
+    (with-stdout-to %{targets} (bash "git submodule status $(git rev-parse --show-toplevel)")))
+  (deps (universe)))
